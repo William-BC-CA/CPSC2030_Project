@@ -1,2 +1,2 @@
-# CPSC2030_Assignment6
+# CPSC2030_Project_Proposal
 
