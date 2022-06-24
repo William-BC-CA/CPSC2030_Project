@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+body{
+    background-image: url('../img/de_aztec.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wrapper{
     margin: auto;
-    max-width: 80%;
+    width: 80%;
+    background-color: white;
 }
 
 /* TABLE */
@@ -25,15 +34,36 @@ p {
     text-align: justify;
 }
 
-body{
-    background-image: url('img/de_aztec.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+nav ul{
+    padding: 0; /* https://stackoverflow.com/questions/9620594/removing-ul-indentation-with-css */
 }
 
+nav {
+    background-color: #CAD528;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(131, 131, 131);
+    text-decoration: underline;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li ul{
+    visibility: hidden;
+}
 /* Desktop Layout */
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px){
 
-}
+} */
