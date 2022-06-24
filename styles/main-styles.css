@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.wrapper{
+    margin: auto;
+    max-width: 80%;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th, table td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+/* table td:nth-of-type(2n){
+    text-align: justify;
+} */
+
+p {
+    font-family: 'Raleway';
+    text-align: justify;
+}
+
+body{
+    background-image: url('img/de_aztec.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Desktop Layout */
+@media only screen and (min-width: 768px){
+
+}
