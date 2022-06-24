@@ -169,4 +169,8 @@ header h1{
     /* nav ul li ul{
         visibility: hidden;
     } */
+    table th img, table td img{
+        width: 60%;
+        height: 60%;
+    }
 }
