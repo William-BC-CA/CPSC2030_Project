@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 body{
     background-image: url('../img/de_aztec.jpg');
@@ -42,16 +44,21 @@ nav ul{
 
 nav {
     background-color: #CCBA7C;
+    font-family: 'Anton';
+    font-size: 20px;
 }
 
 nav a{
     color: black;
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
 }
 
 nav a:hover{
     color:rgb(131, 131, 131);
     text-decoration: underline;
+    font-size: 30px;
 }
 
 header{
@@ -64,11 +71,13 @@ header{
     padding-bottom: 20px;
     margin-bottom: -20px;
     /* font-size: 16px; */
+    font-family: 'Titan One';
 }
 
 .first-word{
     color: white;
     font-size: 23px;
+    font-family: 'Montserrat';
     animation-name: first-word-move;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -153,7 +162,8 @@ header h1{
     nav ul li{
         list-style-type: none;
         text-align: center;
-        padding-bottom: 20px;
+        /* padding-bottom: 5px; */
+        padding: 5px;
     }
     
     /* nav ul li ul{
