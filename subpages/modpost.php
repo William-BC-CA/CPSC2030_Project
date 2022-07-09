@@ -1,7 +1,7 @@
 <?php
 
     function receive_message(){
-        if ($SERVER["REQUEST_METHOD"] == "POST"){
+        if ($_SERVER["REQUEST_METHOD"] == "POST"){
             echo "<p>File submitted!</p>";
         }
     }
