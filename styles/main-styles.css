@@ -169,6 +169,11 @@ table th img, table td img{
     height: 60%;
 }
 
+iframe{
+    width: 90%;
+    height: 90%;
+}
+
 /* Desktop Layout */
 @media only screen and (min-width: 768px){
     nav > ul{
