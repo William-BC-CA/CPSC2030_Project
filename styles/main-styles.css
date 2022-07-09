@@ -180,6 +180,7 @@ iframe{
     animation-name: emphasis-submit;
     animation-direction: alternate;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes emphasis-submit{
