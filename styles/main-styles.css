@@ -185,13 +185,13 @@ iframe{
 
 @keyframes emphasis-submit{
     0%{
-        text-shadow: 2px 2px blue;
+        text-shadow: 1px 1px blue;
     }
     50%{
-        text-shadow: 2px 2px red;
+        text-shadow: 1px 1px red;
     }
     100%{
-        text-shadow: 2px 2px blue;
+        text-shadow: 1px 1px blue;
     }
 }
 
