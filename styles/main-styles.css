@@ -294,4 +294,8 @@ iframe{
         background-color: rgb(131, 131, 131);
         /* opacity: .8; */
     }
+    iframe{
+        width: 90%;
+        height: 50vh;
+    }
 }
