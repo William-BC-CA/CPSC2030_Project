@@ -184,10 +184,10 @@ iframe{
 
 @keyframes emphasis-submit{
     0%{
-        text-shadow: 2px 2px yellow;
+        text-shadow: 2px 2px blue;
     }
     100%{
-        text-shadow: none;
+        text-shadow: 2px 2px yellow;
     }
 }
 
