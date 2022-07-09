@@ -1,3 +1,11 @@
+<?php
+  // error reporting
+  error_reporting(E_ALL);
+  ini_set('display_errors', 1);
+
+  // Import functions
+  require_once('modpost.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,8 +43,9 @@
             </ul>
         </nav>
         <main>
-            <form action="submitmod.php">
-            <input type="file" id="myFile" name="filename">
+            <form action="submitmod.php" method = "post">
+            <input type="file" id="myFile" name="filename"><br>
+            <?php receive_message(); ?>
             <input type="submit">
             </form>
         </main>
