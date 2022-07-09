@@ -35,19 +35,10 @@
             </ul>
         </nav>
         <main>
-            <p>Since sounds are just audio files, they can be used for anything! But we will try our best to let you know what game it was for. There will also be audio previews here!</p>
-            <div style = "overflow-x: auto">
-                <table>
-                    <tr>
-                        <th>Sound Effects Name:</th>
-                        <th>Description: (describe the sound)</th>
-                    </tr>
-                    <tr>
-                        <th>CSGO Texture for Dust II<br><img src = "https://images.gamebanana.com/img/ss/mods/530-90_5e23cb0e30afd.jpg" alt = "Image"></th>
-                        <td><b>Game: Counter-Strike 1.6</b><br>Global Offensive textures for the 1.6 game dust2 map.<br><b>Link: <a href = "https://gamebanana.com/dl/445854">Directed Download</a></b></td>
-                    </tr>
-                </table>
-            </div>
+            <form action="submitmod.php">
+            <input type="file" id="myFile" name="filename">
+            <input type="submit">
+            </form>
         </main>
         <footer>
             <p>Copyright &copy; 2022 NOTORIEX LEGACY. All Rights Reserved.</p>
