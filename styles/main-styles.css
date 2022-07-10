@@ -201,10 +201,24 @@ table tr td ul li{
 
 table tr th a{
     color: black;
+
+    transition-property: all;
+    transition-duration: 1s;
 }
 
 table tr th a:hover{
     color: red;
+}
+
+table tr td a{
+    color: rgb(177, 100, 0);
+
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+table tr td a:hover{
+    color: rgb(2, 206, 121);
 }
 
 table tr th a:visited{
