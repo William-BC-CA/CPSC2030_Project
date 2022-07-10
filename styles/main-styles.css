@@ -245,6 +245,7 @@ table tr th a:visited{
         /* padding: 5px 35px 5px 35px; */
         cursor: pointer;
         /* position: relative; */
+        
     }
 
     nav ul ul{
@@ -338,6 +339,12 @@ table tr th a:visited{
         color: black;
         text-decoration: none;
     }
+
+    nav li{
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+
     nav li:hover{
         /* color:rgb(131, 131, 131); */
         /* text-decoration: underline; */
