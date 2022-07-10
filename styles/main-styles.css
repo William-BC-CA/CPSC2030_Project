@@ -199,6 +199,18 @@ table tr td ul li{
     list-style-type: none;
 }
 
+table tr th a{
+    color: black;
+}
+
+table tr th a:hover{
+    color: red;
+}
+
+table tr th a:visited{
+    color: black;
+}
+
 /* Desktop Layout */
 @media only screen and (min-width: 768px){
     nav > ul{
