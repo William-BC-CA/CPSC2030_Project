@@ -195,6 +195,10 @@ iframe{
     }
 }
 
+table tr td ul li{
+    list-style-type: none;
+}
+
 /* Desktop Layout */
 @media only screen and (min-width: 768px){
     nav > ul{
