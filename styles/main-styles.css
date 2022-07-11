@@ -195,7 +195,7 @@ iframe{
     }
 }
 
-table tr td ul li{
+table tr td ul li, table tr td ol li{
     list-style-type: none;
 }
 
@@ -355,5 +355,13 @@ table tr th a:visited{
     iframe{
         width: 90%;
         height: 50vh;
+    }
+    img {
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    img:hover{
+        width: 80%;
+        height: 80%;
     }
 }
