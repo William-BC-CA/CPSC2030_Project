@@ -1,0 +1,27 @@
+#right-side, #right-side p{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.tiny{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px){
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #left-side{
+        margin-right: 15px;
+        grid-column: 1;
+    }
+
+    #right-side{
+        padding-left: 3px;
+        padding-right: 15px;
+        grid-column: 2;
+        text-align: justify;
+    }
+}
