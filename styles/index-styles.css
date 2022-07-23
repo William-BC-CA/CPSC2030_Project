@@ -1,12 +1,33 @@
-#right-side, #right-side p{
-    background-color: rgb(0, 0, 0);
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+#right-side p{
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-family: 'Indie Flower';
+    font-weight: bold;
 }
 
 .tiny{
     font-size: 12px;
 }
+
+#right-side{
+    background-color: #F7F2E7;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#right-side h3{
+    font-family: 'Titan One';
+    font-weight: normal;
+}
+
+#right-side h4{
+    font-family: 'Concert One';
+}
+
 
 @media only screen and (min-width: 768px){
     main{
@@ -22,6 +43,19 @@
         padding-left: 3px;
         padding-right: 15px;
         grid-column: 2;
+        /* text-align: justify; */
+        
+    }
+    #right-side{
         text-align: justify;
+        grid-column: 2;
+    }
+
+    #right-side h3, #right-side h4{
+        margin-left: 3%;
+    }
+
+    #right-side p{
+        margin-left: 10%;
     }
 }
