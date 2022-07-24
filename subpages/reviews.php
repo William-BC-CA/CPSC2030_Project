@@ -51,21 +51,26 @@
                 <label for="firstName">First Name: </label>
                 <input type="text" name = "firstName" id = "firstName">
                 <br>
+                <br>
                 <!-- firstName Message -->
                 <?php print_validate_message("firstName") ?>
                 <label for = "lastName">Last Name: </label>
                 <input type = "text" name = "lastName" id = "lastName">
+                <br>
                 <br>
                 <!-- lastName Message -->
                 <?php print_validate_message("lastName") ?>
                 <label for = "email">Email: </label>
                 <input type = "text" name = "email" id = "email">
                 <br>
+                <br>
                 <!-- Email Message -->
                 <?php print_validate_message("email") ?>
                 <label for = "comments">Comment: (recommended, but optional)</label>
                 <br>
+                <br>
                 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <br>
                 <br>
                 <fieldset>
                     <legend>Rating:</legend>
@@ -93,6 +98,7 @@
                     <!-- DISPLAY MESSAGE -->
                     <?php print_validate_message("ratings") ?>
                 </fieldset>
+                <br>
                 <br>
                 <label for = "age">Age: </label>
                 <input type = "text" name = "age" id = "age">
