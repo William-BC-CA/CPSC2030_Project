@@ -64,7 +64,9 @@
                 <!-- Email Message -->
                 <?php print_validate_message("email") ?>
                 <label for = "comments">Comment: (recommended, but optional)</label>
+                <br>
                 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <br>
                 <fieldset>
                     <legend>Rating:</legend>
                     <input type = "radio" id = "1" name = "ratings[]">
@@ -91,6 +93,7 @@
                     <!-- DISPLAY MESSAGE -->
                     <?php print_validate_message("ratings") ?>
                 </fieldset>
+                <br>
                 <label for = "age">Age: </label>
                 <input type = "text" name = "age" id = "age">
                 <?php print_validate_message("age") ?>
