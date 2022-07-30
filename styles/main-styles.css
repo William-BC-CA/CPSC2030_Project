@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
     background-image: url('../img/perry-grone-dqtz7uLc2F4-unsplash.jpg');
@@ -22,9 +23,11 @@ body{
 table {
     border-collapse: collapse;
     width: 100%;
+    font-family: 'Poppins';
 }
+
 table th, table td{
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     padding: 15px;
     text-align: center;
 }
@@ -252,6 +255,16 @@ nav ul li{
     /* padding: 5px 35px 5px 35px; */
     cursor: pointer;
     /* position: relative; */
+}
+
+/* CONFIGURE TABLE COLOURS */
+table tr:nth-of-type(2n){
+    background-color: rgb(216, 216, 216);
+}
+
+table tr:nth-of-type(1){
+    background-color: rgb(228, 49, 78);
+    color: white;
 }
 
 /* Desktop Layout */
