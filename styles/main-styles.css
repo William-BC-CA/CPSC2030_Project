@@ -14,16 +14,18 @@ body{
 
 .wrapper{
     margin: auto;
-    width: 80%;
+    width: 75%;
     background-color: white;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 
 /* TABLE */
 table {
     border-collapse: collapse;
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Poppins';
+    border-radius: 100px;
 }
 
 table th, table td{
@@ -175,6 +177,7 @@ table th img, table td img{
 iframe{
     width: 90%;
     height: 90%;
+    border-radius: 15px;
 }
 
 .submitted-file{
@@ -267,8 +270,16 @@ table tr:nth-of-type(1){
     color: white;
 }
 
+img {
+    border-radius: 20px;
+}
+
 /* Desktop Layout */
 @media only screen and (min-width: 768px){
+    .wrapper{
+        width: 85%;
+    }
+
     nav ul li:hover{
         color: black;
         text-decoration: none;
