@@ -73,7 +73,7 @@ header{
     background-color: black;
     padding-bottom: 20px;
     margin-bottom: -20px;
-    margin-top: -21px;
+    margin-top: -23px;
     /* font-size: 16px; */
     font-family: 'Titan One';
 }
@@ -107,7 +107,7 @@ footer{
     margin: auto; */
     /* max-width: auto; */
     margin-top: 30px;
-    margin-bottom: -21px;
+    margin-bottom: -28px;
 }
 
 footer p{
