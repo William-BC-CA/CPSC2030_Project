@@ -17,6 +17,7 @@ body{
     width: 75%;
     background-color: white;
     margin-bottom: 20px;
+    overflow: hidden;
     border-radius: 30px;
 }
 
@@ -72,6 +73,7 @@ header{
     background-color: black;
     padding-bottom: 20px;
     margin-bottom: -20px;
+    margin-top: -21px;
     /* font-size: 16px; */
     font-family: 'Titan One';
 }
@@ -105,6 +107,7 @@ footer{
     margin: auto; */
     /* max-width: auto; */
     margin-top: 30px;
+    margin-bottom: -21px;
 }
 
 footer p{
