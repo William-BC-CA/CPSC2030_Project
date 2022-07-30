@@ -256,6 +256,11 @@ nav ul li{
 
 /* Desktop Layout */
 @media only screen and (min-width: 768px){
+    nav ul li:hover{
+        color: black;
+        text-decoration: none;
+    }
+
     nav > ul{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -364,6 +369,11 @@ nav ul li{
         background-color: rgb(131, 131, 131);
         /* opacity: .8; */
     }
+
+    nav ul li ul li:hover{
+        background-color: rgb(74, 100, 137);
+    }
+    
     iframe{
         width: 90%;
         height: 50vh;
