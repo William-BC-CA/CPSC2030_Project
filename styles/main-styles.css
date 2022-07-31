@@ -173,8 +173,8 @@ nav ul li{
 }
 
 table th img, table td img{
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 30%;
 }
 
 iframe{
@@ -370,6 +370,11 @@ img {
         transition-property: all;
         transition-duration: 1s;
     } */
+
+    table th img, table td img{
+        width: 60%;
+        height: 60%;
+    }
 
     nav ul li ul{
         background-color: #DE9B35;
