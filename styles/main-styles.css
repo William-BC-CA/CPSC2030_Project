@@ -174,7 +174,7 @@ nav ul li{
 
 table th img, table td img{
     width: 90%;
-    height: 30%;
+    /* height: 10%; */
 }
 
 iframe{
