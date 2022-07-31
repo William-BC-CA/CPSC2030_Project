@@ -24,7 +24,7 @@ body{
 /* TABLE */
 table {
     border-collapse: collapse;
-    /* width: 100%; */
+    width: 100%;
     font-family: 'Poppins';
     border-radius: 100px;
 }
