@@ -215,7 +215,7 @@ table tr th a{
     transition-duration: 1s;
 }
 
-table tr a:nth-of-type(2n - 1):hover{
+table tr th a:nth-of-type(2n - 1):hover{
     color: red;
 }
 
