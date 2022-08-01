@@ -281,7 +281,7 @@ img {
 .results{
     color: green;
 
-    text-shadow: 0px 0px green;
+    text-shadow: none;
 
     /* ANIMATION */
     animation-name: success-noice;
@@ -292,7 +292,7 @@ img {
 
 @keyframes success-noice{
     0%{
-        text-shadow: 0px 0px 0px green;
+        text-shadow: none;
     }
     100%{
         text-shadow: 0px 0px 2px turquoise;
