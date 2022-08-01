@@ -104,6 +104,8 @@
                 <input type = "text" name = "age" id = "age">
                 <?php print_validate_message("age") ?>
                 <?php printFinal() ?>
+                <br>
+                <br>
                 <input type = "submit" value = "Submit">
             </form>
         </main>

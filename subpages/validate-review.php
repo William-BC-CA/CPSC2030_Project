@@ -104,6 +104,14 @@
                             $val_messages["email"] = "Invalid Email!";
                         }
                     }
+                    if ($type = "age"){
+                        if ($age >= 13){
+                            $val_messages["age"] = "";
+                        }
+                        else {
+                            $val_messages["age"] = "Invalid Age! You must be at least 13 years old to post a comment or Mommy and Daddy will be mad at you! ";
+                        }
+                    }
                 }
             }
             if ((isset($_POST["ratings"])) && (count($_POST["ratings"]) == 1)){
