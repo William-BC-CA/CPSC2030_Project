@@ -45,7 +45,7 @@
         <main>
             <form action="submitmod.php" method = "post">
                 <p>Feeling free to submit your own created mod into our site! Upload it here!</p>
-                <input type="file" id="myFile" name="filename"><br>
+                <input type="file" id="myFile" name="myFile"><br>
                 <?php receive_message(); ?><br>
                 <input type="submit">
             </form>
