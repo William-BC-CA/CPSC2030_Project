@@ -6,6 +6,9 @@
   // Import functions
   require_once('validate-review.php');
 
+  $reviews = [];
+
+  require_once('../database/database.php');
   the_validation_system();
 ?>
 
@@ -108,6 +111,11 @@
                 <br>
                 <input type = "submit" value = "Submit">
             </form>
+
+            <?php
+                get_reviews();
+                
+            ?>
         </main>
         <footer>
             <p>Copyright &copy; 2022 NOTORIEX LEGACY. All Rights Reserved.</p>
