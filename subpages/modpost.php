@@ -3,7 +3,7 @@
     function receive_message(){
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             //  && (!empty($_FILES["fileName"]["name"]))
-            if ((isset($_FILES["fileName"]))){
+            if ((is_uploaded_file($_FILES["fileName"]))){
                 echo "<p class = 'results'>File submitted!</p>";
             }
             else {
