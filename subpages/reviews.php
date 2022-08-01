@@ -86,13 +86,13 @@
                         <label for = "5">5</label>
                     <input type = "radio" id = "6" name = "ratings[]">
                         <label for = "6">6</label>
-                    <input type = "radio" id = "7" name "rating[]">
+                    <input type = "radio" id = "7" name "ratings[]">
                         <label for = "7">7</label>
-                    <input type = "radio" id = "8" name "rating[]">
+                    <input type = "radio" id = "8" name "ratings[]">
                         <label for = "8">8</label>
-                    <input type = "radio" id = "9" name "rating[]">
+                    <input type = "radio" id = "9" name "ratings[]">
                         <label for = "9">9</label>
-                    <input type = "radio" id = "10" name "rating[]">
+                    <input type = "radio" id = "10" name "ratings[]">
                         <label for = "10">10</label>
 
                     <!-- DISPLAY MESSAGE -->
