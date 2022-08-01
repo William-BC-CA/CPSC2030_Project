@@ -74,25 +74,25 @@
                 <br>
                 <fieldset>
                     <legend>Rating:</legend>
-                    <input type = "radio" id = "1" name = "ratings[]">
+                    <input type = "radio" id = "1" name = "ratings[]" value = "1">
                         <label for = "1">1</label>
-                    <input type = "radio" id = "2" name = "ratings[]">
+                    <input type = "radio" id = "2" name = "ratings[]" value = "2">
                         <label for = "2">2</label>
-                    <input type = "radio" id = "3" name = "ratings[]">
+                    <input type = "radio" id = "3" name = "ratings[]" value = "3">
                         <label for = "3">3</label>
-                    <input type= "radio" id = "4" name = "ratings[]">
+                    <input type= "radio" id = "4" name = "ratings[]" value = "4">
                         <label for = "4">4</label>
-                    <input type = "radio" id = "5" name = "ratings[]">
+                    <input type = "radio" id = "5" name = "ratings[]" value = "5">
                         <label for = "5">5</label>
-                    <input type = "radio" id = "6" name = "ratings[]">
+                    <input type = "radio" id = "6" name = "ratings[]" value = "6">
                         <label for = "6">6</label>
-                    <input type = "radio" id = "7" name "ratings[]">
+                    <input type = "radio" id = "7" name "ratings[]" value = "7">
                         <label for = "7">7</label>
-                    <input type = "radio" id = "8" name "ratings[]">
+                    <input type = "radio" id = "8" name "ratings[]" value = "8">
                         <label for = "8">8</label>
-                    <input type = "radio" id = "9" name "ratings[]">
+                    <input type = "radio" id = "9" name "ratings[]" value = "9">
                         <label for = "9">9</label>
-                    <input type = "radio" id = "10" name "ratings[]">
+                    <input type = "radio" id = "10" name "ratings[]" value = "10">
                         <label for = "10">10</label>
 
                     <!-- DISPLAY MESSAGE -->
