@@ -292,10 +292,10 @@ img {
 
 @keyframes success-noice{
     0%{
-        text-shadow: 0px 0px green;
+        text-shadow: 0px 0px 0px green;
     }
     100%{
-        text-shadow: 2px 2px turquoise;
+        text-shadow: 0px 0px 2px turquoise;
     }
 }
 
@@ -313,11 +313,11 @@ img {
 
 @keyframes attention-feyleures{
     0%{
-        font-size: 16px;
+        color: yellow;
     }
     100%{
-        font-weight: bold;
-        font-size: 20px;
+        /* font-weight: bold; */
+        color: red;
     }
 }
 
