@@ -40,20 +40,20 @@
                         for($i = 0; $i < strlen($firstName); $i++){
                             $letter = substr($firstName, $i, $i + 1);
                             if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
-                                $val_messages = "";
+                                $val_messages["firstName"] = "";
                             }
                             else {
-                                $val_messages = "Insert bruh moment. Dude your name has to be in letters not numbers! Are you a robot?";
+                                $val_messages["firstName"] = "Insert bruh moment. Dude your name has to be in letters not numbers! Are you a robot?";
                                 $i = strlen($firstName) - 1;
                                 $firstNameChecker = false;
                             }
                         }
                         if ($firstNameChecker == "true"){
                             if (substr($firstName, 0, 1) >= 'A' && substr($firstName, 0, 1) <= 'Z'){
-                                $val_messages = "";
+                                $val_messages["firstName"] = "";
                             }
                             else {
-                                $val_messages = "First letter must be capital!";
+                                $val_messages["firstName"] = "First letter must be capital!";
                             }
                         }
 
