@@ -46,7 +46,7 @@
                                 $val_messages["firstName"] = "";
                             }
                             else {
-                                $val_messages["firstName"] = "Insert bruh moment. Dude your name has to be in letters not numbers! Are you a robot?";
+                                $val_messages["firstName"] = $letter . " Insert bruh moment. Dude your name has to be in letters not numbers! Are you a robot?";
                                 $i = strlen($firstName) - 1;
                                 $firstNameChecker = false;
                             }
