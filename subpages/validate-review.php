@@ -6,13 +6,12 @@
     // VARIABLES
     $firstName = $lastName = $email = $rating = $age = "";
 
-    function printFinal(){
+    function printFinal($pdo){
         global $valid;
 
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             if ($valid == true){
                 echo "<div class = 'results'>Your review has been submitted!</div>";
-                $pdo = database_connect();
                 submit_review();
             }
         }

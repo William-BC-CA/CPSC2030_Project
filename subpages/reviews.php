@@ -9,7 +9,7 @@
   $reviews = [];
 
   require_once('database/database.php');
-
+  $pdo = database_connect();
   the_validation_system();
 ?>
 
@@ -107,7 +107,7 @@
                 <label for = "age">Age: </label>
                 <input type = "text" name = "age" id = "age">
                 <?php print_validate_message("age") ?>
-                <?php printFinal() ?>
+                <?php printFinal($pdo) ?>
                 <br>
                 <br>
                 <input type = "submit" value = "Submit">
