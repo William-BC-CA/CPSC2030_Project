@@ -142,6 +142,7 @@
                 getReviews();
                 echo "<h2>Reviews</h2>";
                 echo "<div>";
+                // TODO: Design reviews printing!
                 foreach($reviews as $value){
                     echo "<div class = 'results'>Post ID: " . $value['ID'] . "
                     <br>Date: " .$value['date'] . "

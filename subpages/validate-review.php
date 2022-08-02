@@ -10,7 +10,7 @@
         global $valid;
 
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
-            // TODO: Print reviews!
+            // DONE: Print reviews!
             if ($valid == true){
                 echo "<div class = 'results'>Your review has been submitted!</div>";
                 submit_review();
