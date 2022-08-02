@@ -54,7 +54,8 @@
                         }
                         if ($firstNameChecker == "true"){
                             // if (substr($firstName, 0, 1) >= 'A' && substr($firstName, 0, 1) <= 'Z'){
-                            if (ctype_upper($firstName, 0, 1)){
+                            $tmpF = substr($firstName, 0, 1);
+                            if (ctype_upper($tmpF)){
                                 $val_messages["firstName"] = "";
                             }
                             else {
@@ -84,8 +85,9 @@
                             }
                         }
                         if ($lastNameChecker == true){
+                            $tmpL = substr($lastName, 0, 1);
                             // if (substr($lastName, 0, 1) >= 'A' && substr($lastName, 0, 1) <= 'Z'){
-                            if (ctype_upper($lastName, 0, 1)){
+                            if (ctype_upper($tmpL)){
                                 $val_messages["lastName"] = "";
                             }
                             else {
