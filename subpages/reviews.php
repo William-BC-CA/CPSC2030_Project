@@ -140,7 +140,9 @@
 
             <?php
                 getReviews();
-
+                foreach($reviews as $value){
+                    echo "<div class = 'results'>" . $value . "</div>";
+                }
             ?>
         </main>
         <footer>
