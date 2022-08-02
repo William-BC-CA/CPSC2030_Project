@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
-    background-image: url('../img/perry-grone-dqtz7uLc2F4-unsplash.jpg');
+    /* background-image: url('../img/perry-grone-dqtz7uLc2F4-unsplash.jpg'); */
+    background-color: white;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
