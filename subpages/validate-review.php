@@ -10,6 +10,7 @@
         global $valid;
 
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
+            // TODO: Print reviews!
             if ($valid == true){
                 echo "<div class = 'results'>Your review has been submitted!</div>";
                 submit_review();
@@ -115,7 +116,6 @@
                         }
                     }
                     if ($type = "comments"){
-                        // TODO: FIX!
                         if (strlen($comments) > 5){
                             $val_messages["comments"] = "";
                         }

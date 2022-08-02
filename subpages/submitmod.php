@@ -15,6 +15,30 @@
     <link rel="stylesheet" href="../styles/main-styles.css">
     <link rel="icon" href="../img/game.ico">
     <title>NTRX Counter-Strike Modding Hub</title>
+    <script>
+        $(document).ready(function(){
+            let background_img = Math.trunc((Math.random() * 3) + 1);
+            // console.log(backgroundimg);
+
+            // $(document).load(function(){
+                switch(background_img){
+                    case 1:
+                        $("body").css("background", "url('../img/perry-grone-dqtz7uLc2F4-unsplash.jpg')");
+                        break;
+                    case 2:
+                        $("body").css("background", "url('../img/jeremy-lishner-qQkhVM9bp10-unsplash.jpg')");
+                        break;
+                    case 3:
+                        $("body").css("background", "url('../img/sylvie-charron-hDYZyZLAG2I-unsplash.jpg')");
+                        break;
+                }
+                $("body").css("background-position", "center");
+                $("body").css("background-repeat", "no-repeat");
+                $("body").css("background-size", "cover");
+                $("body").css("background-attachment", "fixed");
+            // })
+        })
+    </script>
 </head>
 <body>
     <div class = "wrapper">
