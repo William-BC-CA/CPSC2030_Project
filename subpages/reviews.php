@@ -9,6 +9,9 @@
   $reviews = [];
 
   require_once('../database/database.php');
+
+  $pdo = db_connect();
+  submit_review();
   the_validation_system();
 ?>
 
