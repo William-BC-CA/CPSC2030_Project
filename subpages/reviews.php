@@ -6,9 +6,7 @@
   // Import functions
   require_once('validate-review.php');
 
-  $reviews = [];
-
-//   require_once('database/database.php');
+  require_once('database/database.php');
   the_validation_system();
 ?>
 
