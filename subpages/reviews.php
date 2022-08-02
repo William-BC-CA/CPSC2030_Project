@@ -141,6 +141,7 @@
             <?php
                 getReviews();
                 echo "<h2>Reviews</h2>";
+                echo "<div>";
                 foreach($reviews as $value){
                     echo "<div class = 'results'>Post ID: " . $value['ID'] . "
                     <br>Date: " .$value['date'] . "
@@ -151,6 +152,7 @@
                     <br>Rating: " . $value['ratings'] . "
                     <br>Age: " . $value['age'] . "</div>";
                 }
+                echo "</div>";
             ?>
         </main>
         <footer>
