@@ -1,4 +1,5 @@
 <?php
+    require_once('database/database.php');
     $valid = false;
     $val_messages = Array();
 
@@ -11,6 +12,7 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             if ($valid == true){
                 echo "<div class = 'results'>Your review has been submitted!</div>";
+                submit_review();
             }
         }
     }
