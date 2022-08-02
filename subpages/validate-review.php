@@ -42,7 +42,8 @@
                     if ($type == 'firstName'){
                         for($i = 0; $i < strlen($firstName); $i++){
                             $letter = substr($firstName, $i, $i + 1);
-                            if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
+                            // if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
+                            if (ctype_alpha($letter)){
                                 $val_messages["firstName"] = "";
                             }
                             else {
@@ -52,7 +53,8 @@
                             }
                         }
                         if ($firstNameChecker == "true"){
-                            if (substr($firstName, 0, 1) >= 'A' && substr($firstName, 0, 1) <= 'Z'){
+                            // if (substr($firstName, 0, 1) >= 'A' && substr($firstName, 0, 1) <= 'Z'){
+                            if (ctype_upper($firstName, 0, 1)){
                                 $val_messages["firstName"] = "";
                             }
                             else {
@@ -71,7 +73,8 @@
                     if ($type == "lastName"){
                         for($i = 0; $i < strlen($lastName); $i++){
                             $letter = substr($lastName, $i, $i + 1);
-                            if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
+                            // if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
+                            if (ctype_alpha($letter)){
                                 $val_messages["lastName"] = "";
                             }
                             else {
@@ -81,7 +84,8 @@
                             }
                         }
                         if ($lastNameChecker == true){
-                            if (substr($lastName, 0, 1) >= 'A' && substr($lastName, 0, 1) <= 'Z'){
+                            // if (substr($lastName, 0, 1) >= 'A' && substr($lastName, 0, 1) <= 'Z'){
+                            if (ctype_upper($lastName, 0, 1)){
                                 $val_messages["lastName"] = "";
                             }
                             else {
