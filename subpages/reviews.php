@@ -8,9 +8,7 @@
 
   $reviews = [];
 
-  require_once('database/database.php');
-
-  $pdo = database_connect();
+//   require_once('database/database.php');
   the_validation_system();
 ?>
 
