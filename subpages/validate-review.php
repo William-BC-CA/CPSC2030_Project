@@ -21,7 +21,7 @@
         global $firstName;
         global $lastName;
         global $email;
-        // global $comments;
+        global $comments;
         global $rating;
         global $age;
         global $valid;
