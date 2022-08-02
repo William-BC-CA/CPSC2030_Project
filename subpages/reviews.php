@@ -140,8 +140,16 @@
 
             <?php
                 getReviews();
+                echo "<h2>Reviews</h2>";
                 foreach($reviews as $value){
-                    echo "<div class = 'results'>" . $value . "</div>";
+                    echo "<div class = 'results'>Post ID: " . $value['ID'] . "
+                    <br>Date: " .$value['date'] . "
+                    <br>First Name: " . $value['firstName'] . "
+                    <br>Last Name: " . $value['lastName'] . "
+                    <br>Email: " . $value['email'] . "
+                    <br>Comment: " . $value ['comments'] . "
+                    <br>Rating: " . $value['ratings'] . "
+                    <br>Age: " . $value['age'] . "</div>";
                 }
             ?>
         </main>
