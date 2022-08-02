@@ -28,6 +28,7 @@ function submit_review(){
         $statement -> bindValue(':email', $_POST["email"]);
         $statement -> bindValue(':comments', $_POST["comments"]);
         $statement -> bindValue(':age', $_POST["age"]);
+        $statement -> execute();
     }
 }
 

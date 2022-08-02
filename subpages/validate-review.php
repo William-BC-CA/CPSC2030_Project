@@ -5,7 +5,6 @@
 
     // VARIABLES
     $firstName = $lastName = $email = $rating = $age = "";
-    $reviews = [];
 
     function printFinal(){
         global $valid;
