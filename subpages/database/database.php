@@ -28,7 +28,9 @@ function submit_review(){
         $statement -> bindValue(':email', $_POST["email"]);
         $statement -> bindValue(':comments', $_POST["comments"]);
         // FIXME: ratings is an array! Change to string!
-        $statement -> bindValue(':ratings', $_POST["ratings"]);
+        foreach($_POST["ratings"] as $value){
+            $statement -> bindValue(':ratings', $value);
+        }
         $statement -> bindValue(':age', $_POST["age"]);
         $statement -> execute();
     }
