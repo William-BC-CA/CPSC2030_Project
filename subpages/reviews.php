@@ -69,7 +69,7 @@
                 <br>
                 <!-- Email Message -->
                 <?php print_validate_message("email") ?>
-                <label for = "comments">Comment: (recommended, but optional)</label>
+                <label for = "comments">Comment: </label>
                 <br>
                 <br>
                 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
@@ -114,7 +114,7 @@
 
             <?php
                 get_reviews();
-                
+
             ?>
         </main>
         <footer>

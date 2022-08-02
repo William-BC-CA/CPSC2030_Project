@@ -30,11 +30,11 @@
             $firstName = $_POST["firstName"];
             $lastName = $_POST["lastName"];
             $email = $_POST["email"];
-            // $comments = $_POST["comments"];
+            $comments = $_POST["comments"];
             $age = $_POST["age"];
             $firstNameChecker = $lastNameChecker = $ageChecker = true;
             
-            if (isset($firstName) && isset($lastName) && isset($email) && isset($age)){
+            if (isset($firstName) && isset($lastName) && isset($email) && isset($age) && isset($comments)){
                 foreach($_POST as $type => $value){
                     if ($type == 'firstName'){
                         for($i = 0; $i < strlen($firstName); $i++){
@@ -112,6 +112,16 @@
                             $val_messages["age"] = "Invalid Age! You must be at least 13 years old to post a comment or Mommy and Daddy will be mad at you! ";
                         }
                     }
+                    if ($type = "comments"){
+                        // TODO: FIX!
+                        if (strlen($comments) > 5){
+                            $val_messages["comments"] = "";
+                        }
+                        else {
+                            $val_messages["comments"] = "You must enter a comment!";
+                        }
+                    }
+
                 }
             }
             if ((isset($_POST["ratings"])) && (count($_POST["ratings"]) == 1)){
