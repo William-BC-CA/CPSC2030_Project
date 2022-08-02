@@ -19,7 +19,7 @@ function submit_review(){
     global $pdo;
 
     if ($_SERVER["REQUEST_METHOD"] = "POST"){
-        $sql = "INSERT INTO REVIEWS(date, firstName, lastName, email, comments, age) VALUES (:date, :firstName, :lastName, :email, :comments, :age)";
+        $sql = "INSERT INTO REVIEWS(date, firstName, lastName, email, comments, ratings, age) VALUES (:date, :firstName, :lastName, :email, :comments, :ratings, :age)";
 
         $statement = $pdo -> prepare($sql);
         $statement -> bindValue(':date', date('Y-m-d'));
@@ -27,6 +27,7 @@ function submit_review(){
         $statement -> bindValue(':lastName', $_POST["lastName"]);
         $statement -> bindValue(':email', $_POST["email"]);
         $statement -> bindValue(':comments', $_POST["comments"]);
+        $statement -> bindValue(':ratings', $_POST["ratings"]);
         $statement -> bindValue(':age', $_POST["age"]);
         $statement -> execute();
     }
