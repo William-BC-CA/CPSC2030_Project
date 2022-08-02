@@ -113,7 +113,7 @@
             </form>
 
             <?php
-                get_reviews();
+                getReviews();
 
             ?>
         </main>
