@@ -10,7 +10,6 @@
         global $valid;
 
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
-            // DONE: Print reviews!
             if ($valid == true){
                 echo "<div class = 'results'>Your review has been submitted!</div>";
                 submit_review();
@@ -42,7 +41,6 @@
                     if ($type == 'firstName'){
                         for($i = 0; $i < strlen($firstName); $i++){
                             $letter = substr($firstName, $i, $i + 1);
-                            // if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
                             if (ctype_alpha($letter)){
                                 $val_messages["firstName"] = "";
                             }
@@ -53,7 +51,6 @@
                             }
                         }
                         if ($firstNameChecker == "true"){
-                            // if (substr($firstName, 0, 1) >= 'A' && substr($firstName, 0, 1) <= 'Z'){
                             $tmpF = substr($firstName, 0, 1);
                             if (ctype_upper($tmpF)){
                                 $val_messages["firstName"] = "";
@@ -62,19 +59,10 @@
                                 $val_messages["firstName"] = "First letter must be capital!";
                             }
                         }
-
-                        // if (strlen($firstName) > 2){
-                        //     $val_messages = "";
-                        // }
-                        // else {
-                        //     $val_messages = "First Name must have more than 2 letters!";
-                        //     break;
-                        // }
                     }
                     if ($type == "lastName"){
                         for($i = 0; $i < strlen($lastName); $i++){
                             $letter = substr($lastName, $i, $i + 1);
-                            // if (($letter >= 'A' && $letter <= 'Z') || ($letter >= 'a' && $letter <= 'z')){
                             if (ctype_alpha($letter)){
                                 $val_messages["lastName"] = "";
                             }
@@ -86,7 +74,6 @@
                         }
                         if ($lastNameChecker == true){
                             $tmpL = substr($lastName, 0, 1);
-                            // if (substr($lastName, 0, 1) >= 'A' && substr($lastName, 0, 1) <= 'Z'){
                             if (ctype_upper($tmpL)){
                                 $val_messages["lastName"] = "";
                             }
@@ -94,14 +81,6 @@
                                 $val_messages["lastName"] = "First letter must be capital!";
                             }
                         }
-
-                        // if (strlen($lastName) > 2){
-                        //     $val_messages = "";
-                        // }
-                        // else {
-                        //     $val_messages = "Last Name must have more than 2 letters!";
-                        //     break;
-                        // }
                     }
                     if ($type = "email"){
                         // Courtesy of Adnan Reza (Prof)
