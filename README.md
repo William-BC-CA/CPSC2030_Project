@@ -1,7 +1,7 @@
 # CPSC2030_Project_Proposal
 
 TODO Check List
-- [ ] - [1 mark] Organization/Architecture;
+- [x] - [1 mark] Organization/Architecture;
 - [x] - [1 mark] Dynamic content that is stored in and fetched from the database;
 - [x] - [2 marks] At least one form, with validation;
 - [x] - [1 mark] Some way for the user to update the database or add new records to the database;
