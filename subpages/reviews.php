@@ -141,23 +141,23 @@
             <?php
                 getReviews();
                 echo "<h2>Reviews</h2>";
-                // echo "<div>";
-                echo "<table>";
+                echo "<div>";
+                // echo "<table>";
                 // TODO: Design reviews printing!
                 foreach($reviews as $value){
                     // echo "<div class = 'results'>
-                    echo "<tr><th>Attribute:</th><th>Value:</th></tr><tr><th>Post ID:</th><td>" . $value['ID'] . "</td></tr>
+                    echo "<table><tr><th>Attribute:</th><th>Value:</th></tr><tr><th>Post ID:</th><td>" . $value['ID'] . "</td></tr>
                     <tr><th>Date:</th><td>" .$value['date'] . "</td></tr>
                     <tr><th>First Name:</th><td>" . $value['firstName'] . "</td></tr>
                     <tr><th>Last Name:</th><td>" . $value['lastName'] . "</td></tr>
                     <tr><th>Email:</th><td>" . $value['email'] . "</td></tr>
                     <tr><th>Comment:</th><td>" . $value ['comments'] . "</td></tr>
                     <tr><th>Rating:</th><td>" . $value['ratings'] . "</td></tr>
-                    <tr><th>Age:</th><td>" . $value['age'] . "</td></tr>";
+                    <tr><th>Age:</th><td>" . $value['age'] . "</td></tr></table>";
                     // </div>
                 }
-                // echo "</div>";
-                echo "</tr></table>";
+                echo "</div>";
+                // echo "</tr></table>";
             ?>
         </main>
         <footer>
