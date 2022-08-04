@@ -292,8 +292,13 @@ img {
 }
 
 .reviews-table{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     overflow-x: auto;
+}
+
+#review-title{
+    text-align: center;
+    font-family: 'Raleway';
 }
 
 @keyframes success-noice{
