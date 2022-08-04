@@ -19,9 +19,6 @@
     <script>
         $(document).ready(function(){
             let background_img = Math.trunc((Math.random() * 3) + 1);
-            // console.log(backgroundimg);
-
-            // $(document).load(function(){
                 switch(background_img){
                     case 1:
                         $("body").css("background", "url('../img/perry-grone-dqtz7uLc2F4-unsplash.jpg')");
@@ -37,7 +34,6 @@
                 $("body").css("background-repeat", "no-repeat");
                 $("body").css("background-size", "cover");
                 $("body").css("background-attachment", "fixed");
-            // })
         })
     </script>
 </head>
