@@ -146,7 +146,7 @@
                 // TODO: Design reviews printing!
                 foreach($reviews as $value){
                     // echo "<div class = 'results'>
-                    echo "<div><table><tr><th>Attribute:</th><th>Value:</th></tr><tr><th>Post ID:</th><td>" . $value['ID'] . "</td></tr>
+                    echo "<div class = 'reviews-table'><table><tr><th>Attribute:</th><th>Value:</th></tr><tr><th>Post ID:</th><td>" . $value['ID'] . "</td></tr>
                     <tr><th>Date:</th><td>" .$value['date'] . "</td></tr>
                     <tr><th>First Name:</th><td>" . $value['firstName'] . "</td></tr>
                     <tr><th>Last Name:</th><td>" . $value['lastName'] . "</td></tr>

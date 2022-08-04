@@ -291,6 +291,11 @@ img {
     animation-direction: alternate;
 }
 
+.reviews-table{
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
 @keyframes success-noice{
     0%{
         text-shadow: none;
