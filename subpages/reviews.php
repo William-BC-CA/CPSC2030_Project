@@ -140,7 +140,7 @@
 
             <?php
                 getReviews();
-                echo "<h2 id = 'review-title'>Reviews</h2>";
+                echo "<h2 id = 'review-title'>Epic Community Reviews</h2>";
                 echo "<div>";
                 // echo "<table>";
                 // TODO: Design reviews printing!
