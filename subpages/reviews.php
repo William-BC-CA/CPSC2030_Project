@@ -153,7 +153,7 @@
                     <tr><th>Email:</th><td>" . $value['email'] . "</td></tr>
                     <tr><th>Comment:</th><td>" . $value ['comments'] . "</td></tr>
                     <tr><th>Rating:</th><td>" . $value['ratings'] . "</td></tr>
-                    <tr><th>Age:</th><td>" . $value['age'] . "</td></tr></table>";
+                    <tr><th>Age:</th><td>" . $value['age'] . "</td></tr></table><br>";
                     // </div>
                 }
                 echo "</div>";
