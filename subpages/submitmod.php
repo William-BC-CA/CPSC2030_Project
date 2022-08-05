@@ -74,5 +74,6 @@
         <footer>
             <p>Copyright &copy; 2022 NOTORIEX LEGACY. All Rights Reserved.</p>
         </footer>
+    </div>
 </body>
 </html>

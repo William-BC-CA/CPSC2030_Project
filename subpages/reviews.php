@@ -147,7 +147,6 @@
                     <tr><th>Comment:</th><td>" . $value ['comments'] . "</td></tr>
                     <tr><th>Rating:</th><td>" . $value['ratings'] . "</td></tr>
                     <tr><th>Age:</th><td>" . $value['age'] . "</td></tr></table></div>";
-                    // </div>
                 }
                 echo "</div>";
             ?>
